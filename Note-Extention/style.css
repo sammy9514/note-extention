@@ -1,0 +1,166 @@
+:root {
+    --background: #fff;
+    --theme-color: rgb(229, 57, 53);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 400px;
+    background-color: var(--background);
+}
+ #input-el {
+    width: 90%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid var(--theme-color);
+    margin: 8px;
+    border-radius: 3px;
+}
+
+#input-el:focus {
+    outline: 2px solid var(--theme-color);
+}
+
+#theme-picker-section {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 45px 0;
+}
+
+button {
+    background: var(--theme-color);
+    color: white;
+    padding: 15px 35px;
+    border: 1px solid var(--theme-color);
+    font-weight: bold;
+    margin: 4px 0 0 4px;
+    border-radius: 3px;
+}
+#delete-btn {
+    background: white;
+    color: var(--theme-color);
+}
+
+.btn :nth-child(1) {
+    margin-left: 8px;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+p  {
+    background-color: rgba(228, 227, 227, 0.328);
+    padding: 15px;
+    width: 87%;
+    border-radius: 3px;
+    color: var(--theme-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+#theme-picker-section :nth-child(1):checked{
+    background-color: red;
+}
+#theme-picker-section :nth-child(1){
+    box-shadow: 0 0 0 1px red;
+}
+
+#theme-picker-section :nth-child(2):checked{
+    background-color: orange;
+}
+#theme-picker-section :nth-child(2){
+    box-shadow: 0 0 0 1px orange;
+}
+
+#theme-picker-section :nth-child(3):checked{
+    background-color: yellow;
+}
+#theme-picker-section :nth-child(3){
+    box-shadow: 0 0 0 1px yellow;
+}
+
+
+#theme-picker-section :nth-child(4):checked{
+    background-color: blue;
+}
+#theme-picker-section :nth-child(4){
+    box-shadow: 0 0 0 1px blue;
+}
+
+
+#theme-picker-section :nth-child(5):checked{
+    background-color: #333;
+}
+#theme-picker-section :nth-child(5){
+    box-shadow: 0 0 0 1px #333;
+}
+
+#theme-picker-section :nth-child(6):checked{
+    background-color: pink;
+}
+#theme-picker-section :nth-child(6){
+    box-shadow: 0 0 0 1px pink;
+}
+
+#theme-picker-section :nth-child(7):checked{
+    background-color: purple;
+}
+#theme-picker-section :nth-child(7){
+    box-shadow: 0 0 0 1px purple;
+}
+
+#theme-picker-section :nth-child(8):checked{
+    background-color: green;
+}
+#theme-picker-section :nth-child(8){
+    box-shadow: 0 0 0 1px green;
+}
+
+input[type = 'radio'] {
+    border: 2px solid white;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    appearance: none;
+    background-color: white;
+}
+
+:root:has(#red:checked){
+    --background: #fff;
+    --theme-color: rgb(229, 57, 53);
+}
+:root:has(#orange:checked){
+    --background: #fff;
+    --theme-color: rgb(251, 140, 0);
+}
+:root:has(#yellow:checked){
+    --background: #fff;
+    --theme-color: rgb(253, 216, 53);
+}
+:root:has(#blue:checked){
+    --background: #fff;
+    --theme-color: rgb(30, 136, 229);
+}
+:root:has(#dark:checked){
+    --theme-color: #333;
+}
+/* :root:has(#pink:checked){
+    --theme-color: rgb(243, 67, 96);
+}
+:root:has(#purple:checked){
+    --theme-color: rgb(128, 0, 128);
+}
+:root:has(#green:checked){
+    --theme-color: rgb(95, 147, 65);
+} */
+
+p {
+    text
+}
+
+
+
